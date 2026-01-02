@@ -16,15 +16,23 @@ DisasterOps is a complete 7-step project that implements:
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Option 1: Try the Live Demo (Recommended)
 
+🌐 **Live Application:** [https://YOUR_APP_NAME.streamlit.app](https://YOUR_APP_NAME.streamlit.app)
+
+*(Update this URL after deploying to Streamlit Cloud)*
+
+### Option 2: Run Locally
+
+**Prerequisites:**
 - Python 3.9+
 - OpenAI API key (for LLM functionality)
 
-### Installation
+**Installation:**
 
 1. **Clone the repository:**
    ```bash
+   git clone https://github.com/YOUR_USERNAME/DisasterOps.git
    cd DisasterOps
    ```
 
@@ -42,8 +50,6 @@ DisasterOps is a complete 7-step project that implements:
    ```
    OPENAI_API_KEY=your-api-key-here
    ```
-
-### Running the Demo Interface
 
 **Launch the Streamlit app:**
 ```bash
@@ -204,7 +210,27 @@ This project is part of a portfolio demonstration.
 
 ---
 
+## 🌐 Deployment
+
+This app is deployed on **Streamlit Community Cloud**.
+
+### Deploy Your Own Copy
+
+1. Fork this repository
+2. Go to [Streamlit Community Cloud](https://share.streamlit.io/)
+3. Connect your GitHub account
+4. Select this repository
+5. Set main file: `app.py`
+6. Add secret: `OPENAI_API_KEY`
+7. Deploy!
+
+See `DEPLOYMENT.md` for detailed deployment instructions.
+
+---
+
 **Status**: Portfolio-ready demo ✅
+
+**Live Demo**: [https://YOUR_APP_NAME.streamlit.app](https://YOUR_APP_NAME.streamlit.app)
 
 For questions or issues, refer to `PROJECT_PLAN.md` for detailed project documentation.
 
