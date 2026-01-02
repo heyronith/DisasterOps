@@ -32,7 +32,7 @@ DisasterOps is a complete 7-step project that implements:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/DisasterOps.git
+   git clone https://github.com/heyronith/DisasterOps.git
    cd DisasterOps
    ```
 
