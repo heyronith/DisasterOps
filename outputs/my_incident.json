@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-02T11:26:46.760347",
+    "incident_name": "Fire",
+    "incident_number": "2024-001"
+  },
+  "artifacts": {
+    "situation_brief": {
+      "incident_name": "Fire",
+      "date_time": "2026-01-02 11:26:46",
+      "situation_summary": {
+        "hazards": [
+          "wildfire"
+        ],
+        "injuries_reported": [],
+        "infrastructure_status": [
+          "multiple families affected"
+        ],
+        "weather_conditions": "dry and windy",
+        "available_responders": [
+          "firefighters",
+          "emergency medical services"
+        ],
+        "constraints": [
+          "difficult terrain",
+          "limited access to water sources"
+        ]
+      },
+      "current_status": {
+        "objectives_count": 4,
+        "tasks_count": 5,
+        "time_horizon": "0-6 hours",
+        "evidence_sources": 15,
+        "confidence_score": 0.9
+      },
+      "key_objectives": [
+        "Ensure life safety",
+        "Establish evacuation routes for affected families",
+        "Contain and control the wildfire",
+        "Provide information and support to affected families"
+      ],
+      "safety_considerations": [
+        "Risk of falling debris from burning structures",
+        "Limited access to water sources for firefighting",
+        "Potential for rapid fire spread due to wind conditions"
+      ],
+      "verification_status": {
+        "citation_coverage": "all_claims_cited",
+        "flagged_issues_count": 0,
+        "multi_source_status": "validated",
+        "safety_override": null
+      }
+    },
+    "triage_priorities": {
+      "prioritized_objectives": [
+        "Ensure life safety",
+        "Establish evacuation routes for affected families",
+        "Contain and control the wildfire",
+        "Provide information and support to affected families"
+      ],
+      "priority_1_tasks": [
+        {
+          "task": "Deploy firefighters to establish a perimeter around the wildfire",
+          "priority": 1
+        },
+        {
+          "task": "Set up a command center for coordination of resources and communication",
+          "priority": 1
+        },
+        {
+          "task": "Identify and mark evacuation routes for affected families",
+          "priority": 2
+        }
+      ],
+      "priority_2_tasks": [],
+      "other_tasks": [
+        "Deploy firefighters to establish a perimeter around the wildfire",
+        "Set up a command center for coordination of resources and communication",
+        "Identify and mark evacuation routes for affected families",
+        "Conduct a damage assessment of affected infrastructure",
+        "Distribute information to families about safety measures and evacuation procedures"
+      ],
+      "critical_resource_needs": [
+        {
+          "type": "Firefighting equipment",
+          "quantity": "As needed",
+          "priority": 1
+        },
+        {
+          "type": "Medical supplies",
+          "quantity": "As needed",
+          "priority": 1
+        },
+        {
+          "type": "Communication devices",
+          "quantity": "10",
+          "priority": 2
+        },
+        {
+          "type": "Transportation vehicles for evacuation",
+          "quantity": "5",
+          "priority": 2
+        },
+        {
+          "type": "Information materials (flyers, maps)",
+          "quantity": "100",
+          "priority": 3
+        }
+      ],
+      "assumptions": [
+        "Weather conditions will remain dry and windy, increasing fire risk",
+        "All available responders will be able to reach the incident site despite difficult terrain",
+        "Families affected will require immediate assistance and information"
+      ],
+      "time_horizon": "0-6 hours",
+      "constraints": [
+        "difficult terrain",
+        "limited access to water sources"
+      ]
+    },
+    "mini_iap": {
+      "incident_name": "Fire",
+      "operational_period": "0-6 hours",
+      "objectives": [
+        "Ensure life safety",
+        "Establish evacuation routes for affected families",
+        "Contain and control the wildfire",
+        "Provide information and support to affected families"
+      ],
+      "tasks_by_priority": {
+        "priority_1": [],
+        "priority_2": [],
+        "other": []
+      },
+      "resource_assignments": {
+        "requested": [
+          {
+            "type": "Firefighting equipment",
+            "quantity": "As needed",
+            "priority": 1
+          },
+          {
+            "type": "Medical supplies",
+            "quantity": "As needed",
+            "priority": 1
+          },
+          {
+            "type": "Communication devices",
+            "quantity": "10",
+            "priority": 2
+          },
+          {
+            "type": "Transportation vehicles for evacuation",
+            "quantity": "5",
+            "priority": 2
+          },
+          {
+            "type": "Information materials (flyers, maps)",
+            "quantity": "100",
+            "priority": 3
+          }
+        ],
+        "available": [
+          "firefighters",
+          "emergency medical services"
+        ]
+      },
+      "safety_message": "Risk of falling debris from burning structures",
+      "assumptions": [
+        "Weather conditions will remain dry and windy, increasing fire risk",
+        "All available responders will be able to reach the incident site despite difficult terrain",
+        "Families affected will require immediate assistance and information"
+      ],
+      "constraints": [
+        "difficult terrain",
+        "limited access to water sources"
+      ]
+    },
+    "resource_requests": {
+      "incident_name": "Incident",
+      "request_date_time": "2026-01-02 11:26:46",
+      "total_requests": 5,
+      "resources": [
+        {
+          "request_id": "REQ-001",
+          "resource_type": "{'type': 'Firefighting equipment', 'quantity': 'As needed', 'priority': 1}",
+          "quantity": "TBD",
+          "priority": "Priority 1",
+          "staging_location": "Incident Staging Area",
+          "alternate_options": [],
+          "justification": "Required for 0-6 hours"
+        },
+        {
+          "request_id": "REQ-002",
+          "resource_type": "{'type': 'Medical supplies', 'quantity': 'As needed', 'priority': 1}",
+          "quantity": "TBD",
+          "priority": "Priority 1",
+          "staging_location": "Incident Staging Area",
+          "alternate_options": [],
+          "justification": "Required for 0-6 hours"
+        },
+        {
+          "request_id": "REQ-003",
+          "resource_type": "{'type': 'Communication devices', 'quantity': '10', 'priority': 2}",
+          "quantity": "TBD",
+          "priority": "Priority 1",
+          "staging_location": "Incident Staging Area",
+          "alternate_options": [],
+          "justification": "Required for 0-6 hours"
+        },
+        {
+          "request_id": "REQ-004",
+          "resource_type": "{'type': 'Transportation vehicles for evacuation', 'quantity': '5', 'priority': 2}",
+          "quantity": "TBD",
+          "priority": "Priority 1",
+          "staging_location": "Incident Staging Area",
+          "alternate_options": [],
+          "justification": "Required for 0-6 hours"
+        },
+        {
+          "request_id": "REQ-005",
+          "resource_type": "{'type': 'Information materials (flyers, maps)', 'quantity': '100', 'priority': 3}",
+          "quantity": "TBD",
+          "priority": "Priority 1",
+          "staging_location": "Incident Staging Area",
+          "alternate_options": [],
+          "justification": "Required for 0-6 hours"
+        }
+      ],
+      "available_local": [
+        "firefighters",
+        "emergency medical services"
+      ],
+      "coordination_notes": "All requests subject to availability and approval"
+    },
+    "comms_drafts": {
+      "public_advisory": "Attention residents: A wildfire is currently affecting our area. Please stay indoors, avoid outdoor activities, and prepare for possible evacuation. If you are in an affected area, know your evacuation routes and have an emergency kit ready. Stay tuned to local news for updates and follow instructions from emergency services.",
+      "internal_coordination": "All responders, please prioritize life safety and establish a perimeter around the wildfire immediately. The command center is operational for resource coordination. Ensure evacuation routes are clearly marked and communicated to affected families. Conduct a damage assessment as soon as possible to inform further actions.",
+      "volunteer_message": "We are seeking volunteers to assist with evacuation efforts and support affected families. If you can help, please report to the command center for assignments. Your support is crucial during this emergency.",
+      "key_talking_points": [
+        "Stay indoors and avoid outdoor activities.",
+        "Prepare for possible evacuation and know your routes.",
+        "Follow updates from local authorities.",
+        "Volunteers are needed to assist with evacuations.",
+        "Safety is our top priority; be aware of your surroundings."
+      ],
+      "timestamp": "2026-01-02 11:26:46"
+    }
+  },
+  "ics_forms": {
+    "ics_201": {
+      "form_number": "ICS 201",
+      "form_title": "INCIDENT BRIEFING",
+      "block_1_incident_name": "Fire",
+      "block_2_incident_number": "2024-001",
+      "block_3_date_time_initiated": {
+        "date": "01/02/2026",
+        "time": "1126"
+      },
+      "block_4_map_sketch": "[Map/Sketch area - to be completed with incident area details]",
+      "block_5_situation_summary": "Hazards: wildfire Infrastructure: multiple families affected",
+      "block_5_health_safety_briefing": "Risk of falling debris from burning structures, Limited access to water sources for firefighting, Potential for rapid fire spread due to wind conditions",
+      "block_6_prepared_by": {
+        "name": "[Name]",
+        "position_title": "Incident Commander",
+        "signature": "[Signature]",
+        "date_time": "01/02/2026 1126"
+      },
+      "block_7_current_planned_objectives": "- Ensure life safety\n- Establish evacuation routes for affected families\n- Contain and control the wildfire\n- Provide information and support to affected families",
+      "block_8_current_planned_actions": {
+        "time": "1126",
+        "actions": "1126 - {'task': 'Deploy firefighters to establish a perimeter around the wildfire', 'priority': 1}\n1126 - {'task': 'Set up a command center for coordination of resources and communication', 'priority': 1}\n1126 - {'task': 'Identify and mark evacuation routes for affected families', 'priority': 2}\n1126 - {'task': 'Conduct a damage assessment of affected infrastructure', 'priority': 2}\n1126 - {'task': 'Distribute information to families about safety measures and evacuation procedures', 'priority': 3}"
+      },
+      "block_9_current_organization": "[Organization chart - to be completed with ICS structure]",
+      "block_10_resource_summary": [
+        {
+          "resource": "[Resource type]",
+          "resource_identifier": "TBD",
+          "date_time_ordered": "01/02/2026 1126",
+          "eta": "TBD",
+          "arrived": false,
+          "notes": "Resource request pending"
+        }
+      ]
+    },
+    "ics_202": {
+      "form_number": "ICS 202",
+      "form_title": "INCIDENT OBJECTIVES",
+      "block_1_incident_name": "Fire",
+      "block_2_operational_period": {
+        "date_from": "01/02/2026",
+        "time_from": "1126",
+        "date_to": "01/02/2026",
+        "time_to": "2326"
+      },
+      "block_3_objectives": "1. Ensure life safety\n2. Establish evacuation routes for affected families\n3. Contain and control the wildfire\n4. Provide information and support to affected families",
+      "block_4_operational_period_command_emphasis": "0-6 hours",
+      "block_4_general_situational_awareness": "Risk of falling debris from burning structures; Limited access to water sources for firefighting; Potential for rapid fire spread due to wind conditions",
+      "block_5_site_safety_plan_required": true,
+      "block_5_approved_site_safety_plan_location": "Incident Safety Plan - See ICS 208",
+      "block_6_iap_components": {
+        "ics_203": true,
+        "ics_204": true,
+        "ics_205": true,
+        "ics_205a": false,
+        "ics_206": true,
+        "ics_207": false,
+        "ics_208": true,
+        "map_chart": true,
+        "weather_forecast": true,
+        "other_attachments": []
+      },
+      "block_7_prepared_by": {
+        "name": "[Name]",
+        "position_title": "Planning Section Chief",
+        "signature": "[Signature]",
+        "date_time": "01/02/2026 1126"
+      },
+      "block_8_approved_by_incident_commander": {
+        "name": "[Name]",
+        "signature": "[Signature]",
+        "date_time": "01/02/2026 1126"
+      }
+    },
+    "ics_205": {
+      "form_number": "ICS 205",
+      "form_title": "INCIDENT RADIO COMMUNICATIONS PLAN",
+      "block_1_incident_name": "Fire",
+      "block_2_date_time_prepared": {
+        "date": "01/02/2026",
+        "time": "1126"
+      },
+      "block_3_operational_period": {
+        "date_from": "01/02/2026",
+        "time_from": "1126",
+        "date_to": "01/02/2026",
+        "time_to": "2326"
+      },
+      "block_4_basic_radio_channel_use": [
+        {
+          "channel_number": "1",
+          "function": "Command",
+          "channel_name": "Command Net",
+          "assignment": "Incident Command",
+          "rx_freq": "TBD",
+          "rx_tone_nac": "",
+          "tx_freq": "TBD",
+          "tx_tone_nac": "",
+          "mode": "A",
+          "remarks": "Primary command frequency"
+        },
+        {
+          "channel_number": "2",
+          "function": "Tactical",
+          "channel_name": "Tactical 1",
+          "assignment": "Operations",
+          "rx_freq": "TBD",
+          "rx_tone_nac": "",
+          "tx_freq": "TBD",
+          "tx_tone_nac": "",
+          "mode": "A",
+          "remarks": "Operations channel"
+        },
+        {
+          "channel_number": "3",
+          "function": "Support",
+          "channel_name": "Support Net",
+          "assignment": "Logistics/Planning",
+          "rx_freq": "TBD",
+          "rx_tone_nac": "",
+          "tx_freq": "TBD",
+          "tx_tone_nac": "",
+          "mode": "A",
+          "remarks": "Support operations"
+        }
+      ],
+      "block_5_special_instructions": "Use standard ICS radio procedures. Maintain clear, concise communications.",
+      "block_6_prepared_by": {
+        "name": "[Name]",
+        "position_title": "Communications Unit Leader",
+        "signature": "[Signature]",
+        "date_time": "01/02/2026 1126"
+      }
+    },
+    "ics_206": {
+      "form_number": "ICS 206",
+      "form_title": "MEDICAL PLAN",
+      "block_1_incident_name": "Fire",
+      "block_2_operational_period": {
+        "date_from": "01/02/2026",
+        "time_from": "1126",
+        "date_to": "01/02/2026",
+        "time_to": "2326"
+      },
+      "block_3_medical_aid_stations": [
+        {
+          "name": "Primary Aid Station",
+          "location": "Incident Staging Area",
+          "contact_number_frequency": "TBD",
+          "paramedics_on_site": false
+        }
+      ],
+      "block_4_transportation": [
+        {
+          "ambulance_service": "Local EMS",
+          "location": "TBD",
+          "contact_number_frequency": "911 / Local Dispatch",
+          "level_of_service": "ALS"
+        }
+      ],
+      "block_5_hospitals": [
+        {
+          "hospital_name": "Nearest Trauma Center",
+          "address_latitude_longitude": "TBD",
+          "contact_number_frequency": "TBD",
+          "travel_time_air": "TBD",
+          "travel_time_ground": "TBD",
+          "trauma_center": true,
+          "trauma_level": "Level I/II",
+          "burn_center": false,
+          "helipad": true
+        }
+      ],
+      "block_6_special_medical_emergency_procedures": "For medical emergencies: 1) Contact Medical Unit Leader immediately, 2) Request EMS response via 911, 3) Provide location and nature of emergency, 4) Follow standard medical protocols",
+      "block_6_aviation_assets_utilized": false,
+      "block_7_prepared_by": {
+        "name": "[Name]",
+        "position_title": "Medical Unit Leader",
+        "signature": "[Signature]",
+        "date_time": "01/02/2026 1126"
+      },
+      "block_8_approved_by": {
+        "name": "[Name]",
+        "position_title": "Safety Officer",
+        "signature": "[Signature]",
+        "date_time": "01/02/2026 1126"
+      }
+    }
+  }
+}
