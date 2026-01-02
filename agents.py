@@ -550,6 +550,9 @@ Validate the plan and communications.""")
 # Graph Construction
 
 
+_app = None
+
+
 def build_graph() -> StateGraph:
     """Build and return the compiled agent graph"""
     graph = StateGraph(AgentState)
@@ -570,6 +573,14 @@ def build_graph() -> StateGraph:
     graph.add_edge("verifier", END)
     
     return graph.compile()
+
+
+def get_app():
+    """Get or create the compiled agent graph (cached)"""
+    global _app
+    if _app is None:
+        _app = build_graph()
+    return _app
 
 
 # Pipeline Runner

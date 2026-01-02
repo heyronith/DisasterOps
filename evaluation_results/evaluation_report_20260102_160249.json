@@ -1,0 +1,1644 @@
+{
+  "timestamp": "2026-01-02T16:02:49.944257",
+  "summary": {
+    "total_scenarios": 20,
+    "successful": 20,
+    "failed": 0,
+    "total_time": 718.2045719623566,
+    "avg_time_per_scenario": 35.910228598117826,
+    "retrieval": {
+      "avg_recall_at_5": 0.34475108225108225,
+      "avg_mrr": 1.0,
+      "median_recall_at_5": 0.3333333333333333,
+      "median_mrr": 1.0
+    },
+    "plan_quality": {
+      "avg_completeness": 0.8,
+      "avg_safety": 1.0,
+      "avg_grounding": 1.0,
+      "avg_calibration": 0.8125,
+      "median_completeness": 0.8
+    },
+    "reliability": {
+      "avg_tool_call_success_rate": 1.0,
+      "total_contradictions": 0,
+      "avg_contradiction_rate": 0.0,
+      "avg_unknown_detection": 1.0
+    }
+  },
+  "detailed_results": [
+    {
+      "scenario_name": "Urban Flooding - Downtown",
+      "success": true,
+      "processing_time": 35.93601107597351,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 5,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 1.0,
+          "found_steps": [
+            "assess damage",
+            "establish command",
+            "coordinate responders",
+            "monitor water levels",
+            "prepare evacuation if needed"
+          ],
+          "missing_steps": [],
+          "total_required": 5,
+          "total_found": 5
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 2,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.0,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.9,
+          "calibration_score": 1.0
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 2,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Flooding is ongoing and affecting multiple buildings.",
+          "No injuries have been reported at this time."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring weather conditions.",
+          "Maintain communication with responders and the public.",
+          "Prepare for potential evacuations if conditions worsen."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Wildfire Smoke - Residential",
+      "success": true,
+      "processing_time": 35.165427923202515,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 8,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 1.0,
+          "found_steps": [
+            "evacuation coordination",
+            "air quality monitoring",
+            "medical response for breathing issues",
+            "establish evacuation routes",
+            "coordinate with fire department"
+          ],
+          "missing_steps": [],
+          "total_required": 5,
+          "total_found": 5
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 2,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.0,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.9,
+          "calibration_score": 1.0
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 2,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Evacuations are ordered for zones 3-5 due to wildfire and poor air quality.",
+          "Breathing difficulties are reported among residents."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring air quality and provide updates.",
+          "Ensure all responders are briefed on the operational plan.",
+          "Maintain communication with the public regarding evacuation and safety measures."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Earthquake with Aftershocks",
+      "success": true,
+      "processing_time": 32.18370699882507,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 8,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "assess structural integrity",
+            "coordinate medical response",
+            "restore power if safe",
+            "establish safety zones"
+          ],
+          "missing_steps": [
+            "search and rescue"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 5,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.17999999999999994,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.8200000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 5,
+        "safe_next_steps_count": 4
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Earthquake has occurred",
+          "Aftershocks are expected",
+          "Multiple injuries reported",
+          "Buildings damaged",
+          "Power outages reported"
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring for aftershocks",
+          "Ensure triage area is established and operational",
+          "Maintain communication with local authorities",
+          "Provide updates to the public as needed"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Hurricane Landfall",
+      "success": true,
+      "processing_time": 29.1106698513031,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 7,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "coordinate evacuation",
+            "open emergency shelters",
+            "monitor storm conditions",
+            "secure infrastructure"
+          ],
+          "missing_steps": [
+            "prepare for aftermath"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 4,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.22999999999999987,
+          "well_calibrated": false,
+          "confidence_score": 0.95,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.7700000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 4,
+        "safe_next_steps_count": 4
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.95,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Hurricane is making landfall",
+          "Mandatory evacuation is in effect",
+          "Emergency shelters are opening",
+          "High winds and storm surge are expected"
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring the hurricane's progress",
+          "Ensure all shelters are prepared for incoming evacuees",
+          "Maintain communication with residents for updates",
+          "Deploy emergency responders as planned"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Chemical Spill - Industrial",
+      "success": true,
+      "processing_time": 26.41680121421814,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 8,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "hazmat team deployment",
+            "identify chemical",
+            "evacuate downwind area",
+            "establish decontamination"
+          ],
+          "missing_steps": [
+            "coordinate with experts"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 2,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.17999999999999994,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.8200000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 2,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "A chemical spill has occurred in the area.",
+          "Evacuation is required for safety."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring the situation and air quality.",
+          "Ensure all responders are equipped with PPE.",
+          "Maintain communication with the public for updates."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Tornado Touchdown",
+      "success": true,
+      "processing_time": 32.173296213150024,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 7,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 1.0,
+          "found_steps": [
+            "search and rescue",
+            "assess damage",
+            "medical response",
+            "secure power lines",
+            "coordinate recovery"
+          ],
+          "missing_steps": [],
+          "total_required": 5,
+          "total_found": 5
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.0,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.9,
+          "calibration_score": 1.0
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Tornado caused significant damage",
+          "Multiple injuries reported",
+          "Downed power lines present"
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring weather conditions",
+          "Ensure all responders are briefed on safety considerations",
+          "Maintain communication with affected individuals"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Winter Storm - Heavy Snow",
+      "success": true,
+      "processing_time": 35.82209587097168,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 6,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.4,
+          "found_steps": [
+            "coordinate road clearing",
+            "restore power"
+          ],
+          "missing_steps": [
+            "respond to accidents",
+            "warn residents",
+            "prepare for extended outage"
+          ],
+          "total_required": 5,
+          "total_found": 2
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.54,
+          "well_calibrated": false,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.36000000000000004,
+          "calibration_score": 0.45999999999999996
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "not_applicable",
+        "safety_override": null,
+        "known_claims": [
+          "Heavy snowfall is occurring.",
+          "Roads are affected and impassable.",
+          "Power outages have been reported."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring weather conditions.",
+          "Ensure all emergency services are prepared and deployed.",
+          "Maintain communication with local hospitals and utility companies."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Multi-Hazard: Flood + Landslide",
+      "success": true,
+      "processing_time": 34.60904908180237,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 7,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.6,
+          "found_steps": [
+            "assess landslide risk",
+            "coordinate evacuation",
+            "monitor water levels"
+          ],
+          "missing_steps": [
+            "clear blocked roads",
+            "coordinate multi-agency response"
+          ],
+          "total_required": 5,
+          "total_found": 3
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 2,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.36,
+          "well_calibrated": false,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.54,
+          "calibration_score": 0.64
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 2,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Flooding and landslides are occurring in the area.",
+          "Residents in low-lying or at-risk areas should prepare to evacuate."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring weather conditions.",
+          "Ensure all communication channels are operational.",
+          "Prepare evacuation transport and personnel."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Power Outage - Widespread",
+      "success": true,
+      "processing_time": 34.20083999633789,
+      "retrieval": {
+        "recall_at_5": 0.45454545454545453,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 11,
+          "total_chunks": 11,
+          "expected_min": 5,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 11
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.6,
+          "found_steps": [
+            "coordinate with utility",
+            "prioritize critical infrastructure",
+            "establish communication"
+          ],
+          "missing_steps": [
+            "identify cause",
+            "prepare for extended outage"
+          ],
+          "total_required": 5,
+          "total_found": 3
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 1,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.36,
+          "well_calibrated": false,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.54,
+          "calibration_score": 0.64
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 1,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Widespread power outage affecting critical infrastructure"
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring the situation and provide updates to the public",
+          "Ensure all responders are equipped with necessary safety gear",
+          "Maintain communication with utility companies for power restoration"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Gas Leak - Residential Area",
+      "success": true,
+      "processing_time": 40.590145111083984,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 6,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 1.0,
+          "found_steps": [
+            "evacuate area",
+            "identify leak source",
+            "coordinate with utility",
+            "establish safety perimeter",
+            "monitor air quality"
+          ],
+          "missing_steps": [],
+          "total_required": 5,
+          "total_found": 5
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.04999999999999993,
+          "well_calibrated": true,
+          "confidence_score": 0.95,
+          "expected_confidence": 0.9,
+          "calibration_score": 0.9500000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 4
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.95,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Natural gas leak is present",
+          "Evacuation is in progress",
+          "No injuries reported"
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue evacuation of residents",
+          "Monitor air quality",
+          "Provide updates to the public",
+          "Ensure responders are equipped with PPE"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Building Fire - Multi-Story",
+      "success": true,
+      "processing_time": 43.1745171546936,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 6,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "fire suppression",
+            "evacuate building",
+            "medical triage",
+            "coordinate with fire department"
+          ],
+          "missing_steps": [
+            "account for occupants"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.17999999999999994,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.8200000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Fire has been reported in a multi-story building",
+          "Evacuation orders are in place",
+          "Smoke inhalation is a risk"
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring the situation and provide updates to the public",
+          "Ensure all responders are briefed and equipped",
+          "Maintain communication with evacuees and provide support"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Terrorist Threat - Unverified",
+      "success": true,
+      "processing_time": 28.56879687309265,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 5,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "coordinate with law enforcement",
+            "secure area",
+            "prepare evacuation if needed",
+            "maintain communication"
+          ],
+          "missing_steps": [
+            "assess threat level"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.22999999999999987,
+          "well_calibrated": false,
+          "confidence_score": 0.95,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.7700000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.95,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "There is a suspicious package in the area.",
+          "No injuries have been reported.",
+          "The area is being secured."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring the situation.",
+          "Ensure all personnel are briefed on safety protocols.",
+          "Prepare for potential evacuation if necessary."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Mass Casualty - Transit Accident",
+      "success": true,
+      "processing_time": 32.08924603462219,
+      "retrieval": {
+        "recall_at_5": 0.35714285714285715,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 14,
+          "total_chunks": 14,
+          "expected_min": 8,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 14
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "triage casualties",
+            "coordinate medical resources",
+            "establish casualty collection",
+            "coordinate transport"
+          ],
+          "missing_steps": [
+            "manage scene"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 2,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.17999999999999994,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.8200000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 2,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Multiple casualties reported from a major transit accident.",
+          "Emergency responders are being deployed."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue to monitor the situation and adjust resources as needed.",
+          "Ensure all responders are briefed on safety considerations.",
+          "Maintain communication with all involved agencies."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Cyber Attack - Critical Infrastructure",
+      "success": true,
+      "processing_time": 38.77133107185364,
+      "retrieval": {
+        "recall_at_5": 0.4166666666666667,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 12,
+          "total_chunks": 12,
+          "expected_min": 4,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 12
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "isolate systems",
+            "coordinate with cyber experts",
+            "activate manual procedures",
+            "maintain operations"
+          ],
+          "missing_steps": [
+            "investigate scope"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 1,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.17999999999999994,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.8200000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 1,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Critical infrastructure systems compromised"
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue damage assessment of critical infrastructure",
+          "Maintain communication with residents and responders",
+          "Prepare for potential complications in manual operations"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Pandemic Outbreak - Facility",
+      "success": true,
+      "processing_time": 43.03690719604492,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 7,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.6,
+          "found_steps": [
+            "implement quarantine",
+            "coordinate with public health",
+            "provide medical care"
+          ],
+          "missing_steps": [
+            "track contacts",
+            "prevent spread"
+          ],
+          "total_required": 5,
+          "total_found": 3
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.36,
+          "well_calibrated": false,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.54,
+          "calibration_score": 0.64
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 4
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Infectious disease outbreak is being managed.",
+          "A healthcare facility is under quarantine.",
+          "Public health officials are being deployed."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring the situation closely.",
+          "Ensure all responders are equipped with PPE.",
+          "Maintain clear communication with the healthcare facility.",
+          "Keep the public informed through regular updates."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Bridge Collapse",
+      "success": true,
+      "processing_time": 37.03989291191101,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 7,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "search and rescue",
+            "assess structural stability",
+            "coordinate medical response",
+            "secure area"
+          ],
+          "missing_steps": [
+            "investigate cause"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 4,
+          "unknown_claims": 1
+        },
+        "calibration": {
+          "calibration_error": 0.17999999999999994,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.8200000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 1,
+        "known_claims_count": 4,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "A bridge has collapsed",
+          "Multiple vehicles are involved",
+          "No immediate weather threats are present",
+          "Hospitals in the area are operational and can receive patients"
+        ],
+        "unknown_claims": [
+          "Exact number of injuries or trapped individuals"
+        ],
+        "safe_next_steps": [
+          "Continue monitoring the situation and provide updates to the public",
+          "Ensure all responders are briefed and equipped",
+          "Prepare for potential evacuations if needed"
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Avalanche - Mountain Area",
+      "success": true,
+      "processing_time": 39.423495054244995,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 6,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 1.0,
+          "found_steps": [
+            "search and rescue",
+            "assess avalanche risk",
+            "coordinate mountain rescue",
+            "monitor weather",
+            "establish base camp"
+          ],
+          "missing_steps": [],
+          "total_required": 5,
+          "total_found": 5
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 2,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.0,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.9,
+          "calibration_score": 1.0
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 2,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Avalanche risk exists in the area.",
+          "Deteriorating weather conditions are present."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Continue monitoring weather conditions.",
+          "Ensure all responders are briefed and equipped.",
+          "Maintain communication with the public and responders."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Drought Emergency - Water Shortage",
+      "success": true,
+      "processing_time": 40.7673978805542,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 5,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 1.0,
+          "found_steps": [
+            "implement water restrictions",
+            "coordinate water distribution",
+            "monitor supplies",
+            "coordinate with utilities",
+            "public communication"
+          ],
+          "missing_steps": [],
+          "total_required": 5,
+          "total_found": 5
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 2,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.0,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.9,
+          "calibration_score": 1.0
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 2,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Water supply is critically low due to drought conditions.",
+          "Temporary water distribution points will be established."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Activate water distribution teams immediately.",
+          "Set up temporary water distribution points.",
+          "Communicate water conservation measures to the public."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Radiological Incident - Suspected",
+      "success": true,
+      "processing_time": 41.45703196525574,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 7,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.8,
+          "found_steps": [
+            "evacuate area",
+            "coordinate with experts",
+            "assess radiation levels",
+            "establish decontamination"
+          ],
+          "missing_steps": [
+            "protect responders"
+          ],
+          "total_required": 5,
+          "total_found": 4
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.17999999999999994,
+          "well_calibrated": true,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.7200000000000001,
+          "calibration_score": 0.8200000000000001
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "validated",
+        "safety_override": null,
+        "known_claims": [
+          "Evacuation of the affected area is necessary due to radiation hazard.",
+          "Protective gear is required for responders.",
+          "Public information line will be established."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Proceed with the evacuation as planned.",
+          "Ensure all responders are equipped with protective gear.",
+          "Monitor radiation levels and weather conditions continuously."
+        ]
+      },
+      "error": null
+    },
+    {
+      "scenario_name": "Severe Thunderstorm - Flash Flooding",
+      "success": true,
+      "processing_time": 37.66227889060974,
+      "retrieval": {
+        "recall_at_5": 0.3333333333333333,
+        "mrr": 1.0,
+        "citation_coverage": {
+          "unique_citations": 15,
+          "total_chunks": 15,
+          "expected_min": 6,
+          "coverage_ratio": 1.0,
+          "meets_threshold": true
+        },
+        "total_retrieved": 15
+      },
+      "plan_quality": {
+        "completeness": {
+          "completeness_score": 0.6,
+          "found_steps": [
+            "coordinate water rescues",
+            "assess damage",
+            "prepare for more storms"
+          ],
+          "missing_steps": [
+            "monitor weather",
+            "warn residents"
+          ],
+          "total_required": 5,
+          "total_found": 3
+        },
+        "safety": {
+          "is_safe": true,
+          "unsafe_instructions": [],
+          "safety_score": 1.0
+        },
+        "grounding": {
+          "grounding_score": 1.0,
+          "citation_coverage": "all_claims_cited",
+          "flagged_issues": 0,
+          "known_claims": 3,
+          "unknown_claims": 0
+        },
+        "calibration": {
+          "calibration_error": 0.36,
+          "well_calibrated": false,
+          "confidence_score": 0.9,
+          "expected_confidence": 0.54,
+          "calibration_score": 0.64
+        }
+      },
+      "reliability": {
+        "tool_call_success": true,
+        "tool_call_success_rate": 1.0,
+        "contradiction_count": 0,
+        "contradiction_rate": 0.0,
+        "unknown_detection_score": 1.0,
+        "unknown_claims_count": 0,
+        "known_claims_count": 3,
+        "safe_next_steps_count": 3
+      },
+      "verification": {
+        "citation_coverage": "all_claims_cited",
+        "confidence_score": 0.9,
+        "flagged_issues": [],
+        "multi_source_status": "not_applicable",
+        "safety_override": null,
+        "known_claims": [
+          "Severe thunderstorms and flash flooding are expected.",
+          "No significant injuries reported at this time.",
+          "Water rescue teams are available and ready to deploy."
+        ],
+        "unknown_claims": [],
+        "safe_next_steps": [
+          "Monitor weather updates closely.",
+          "Ensure all personnel are briefed on safety considerations.",
+          "Continue to prepare for potential medical evacuations."
+        ]
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "timestamp": "2026-01-02T15:39:48.888316",
+  "summary": {
+    "total_scenarios": 20,
+    "successful": 0,
+    "failed": 20,
+    "total_time": 0.003802061080932617,
+    "error": "All scenarios failed"
+  },
+  "detailed_results": [
+    {
+      "scenario_name": "Urban Flooding - Downtown",
+      "success": false,
+      "processing_time": 0.0006208419799804688,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Wildfire Smoke - Residential",
+      "success": false,
+      "processing_time": 0.00023293495178222656,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Earthquake with Aftershocks",
+      "success": false,
+      "processing_time": 0.00018405914306640625,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Hurricane Landfall",
+      "success": false,
+      "processing_time": 0.0001609325408935547,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Chemical Spill - Industrial",
+      "success": false,
+      "processing_time": 0.0001659393310546875,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Tornado Touchdown",
+      "success": false,
+      "processing_time": 0.00015592575073242188,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Winter Storm - Heavy Snow",
+      "success": false,
+      "processing_time": 0.00016379356384277344,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Multi-Hazard: Flood + Landslide",
+      "success": false,
+      "processing_time": 0.0001571178436279297,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Power Outage - Widespread",
+      "success": false,
+      "processing_time": 0.0001571178436279297,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Gas Leak - Residential Area",
+      "success": false,
+      "processing_time": 0.00015735626220703125,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Building Fire - Multi-Story",
+      "success": false,
+      "processing_time": 0.00015616416931152344,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Terrorist Threat - Unverified",
+      "success": false,
+      "processing_time": 0.00015401840209960938,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Mass Casualty - Transit Accident",
+      "success": false,
+      "processing_time": 0.00015735626220703125,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Cyber Attack - Critical Infrastructure",
+      "success": false,
+      "processing_time": 0.0001571178436279297,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Pandemic Outbreak - Facility",
+      "success": false,
+      "processing_time": 0.00015306472778320312,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Bridge Collapse",
+      "success": false,
+      "processing_time": 0.00015306472778320312,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Avalanche - Mountain Area",
+      "success": false,
+      "processing_time": 0.00014901161193847656,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Drought Emergency - Water Shortage",
+      "success": false,
+      "processing_time": 0.00015616416931152344,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Radiological Incident - Suspected",
+      "success": false,
+      "processing_time": 0.0001552104949951172,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    },
+    {
+      "scenario_name": "Severe Thunderstorm - Flash Flooding",
+      "success": false,
+      "processing_time": 0.0001552104949951172,
+      "error": "OPENAI_API_KEY environment variable not set",
+      "retrieval": {},
+      "plan_quality": {},
+      "reliability": {}
+    }
+  ]
+}
