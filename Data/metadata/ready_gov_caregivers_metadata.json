@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "ready_gov_caregivers",
+  "source_file": "Data/raw/ready_gov/ready-gov_caregivers-preparedness-guide.pdf",
+  "total_pages": 21,
+  "num_sections": 15,
+  "num_citations": 15,
+  "metadata": {
+    "category": "ready_gov",
+    "filename": "ready-gov_caregivers-preparedness-guide.pdf",
+    "word_count": 5484,
+    "char_count": 36442
+  }
+}

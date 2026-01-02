@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "ready_gov_tornado",
+  "source_file": "Data/raw/ready_gov/tornado_guide.pdf",
+  "total_pages": 2,
+  "num_sections": 3,
+  "num_citations": 3,
+  "metadata": {
+    "category": "ready_gov",
+    "filename": "tornado_guide.pdf",
+    "word_count": 535,
+    "char_count": 3114
+  }
+}

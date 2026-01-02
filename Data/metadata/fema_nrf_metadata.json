@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_nrf",
+  "source_file": "Data/raw/fema_other/nrf_finalapproved_2011028.pdf",
+  "total_pages": 57,
+  "num_sections": 1,
+  "num_citations": 1,
+  "metadata": {
+    "category": "fema_other",
+    "filename": "nrf_finalapproved_2011028.pdf",
+    "word_count": 24163,
+    "char_count": 177163
+  }
+}

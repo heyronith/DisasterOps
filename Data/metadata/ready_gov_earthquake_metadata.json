@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "ready_gov_earthquake",
+  "source_file": "Data/raw/ready_gov/earthquake_hazard_guide.pdf",
+  "total_pages": 2,
+  "num_sections": 3,
+  "num_citations": 3,
+  "metadata": {
+    "category": "ready_gov",
+    "filename": "earthquake_hazard_guide.pdf",
+    "word_count": 525,
+    "char_count": 3131
+  }
+}

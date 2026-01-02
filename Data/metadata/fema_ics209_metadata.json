@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics209",
+  "source_file": "Data/raw/ics_forms/ics_form_209_incident_status_summary_v3.pdf",
+  "total_pages": 23,
+  "num_sections": 8,
+  "num_citations": 8,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_209_incident_status_summary_v3.pdf",
+    "word_count": 9256,
+    "char_count": 60015
+  }
+}

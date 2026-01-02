@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics221",
+  "source_file": "Data/raw/ics_forms/ics_form_221_demobilization_check-out_v3.1.pdf",
+  "total_pages": 4,
+  "num_sections": 4,
+  "num_citations": 4,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_221_demobilization_check-out_v3.1.pdf",
+    "word_count": 1150,
+    "char_count": 7422
+  }
+}

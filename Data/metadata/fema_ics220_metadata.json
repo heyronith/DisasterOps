@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics220",
+  "source_file": "Data/raw/ics_forms/ics_form_220_air_operations_summary_v3.pdf",
+  "total_pages": 4,
+  "num_sections": 4,
+  "num_citations": 4,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_220_air_operations_summary_v3.pdf",
+    "word_count": 916,
+    "char_count": 6299
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_nims_doctrine",
+  "source_file": "Data/raw/fema_other/nims_doctrine.pdf",
+  "total_pages": 133,
+  "num_sections": 10,
+  "num_citations": 10,
+  "metadata": {
+    "category": "fema_other",
+    "filename": "nims_doctrine.pdf",
+    "word_count": 38482,
+    "char_count": 293068
+  }
+}

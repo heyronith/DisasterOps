@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "ready_gov_hurricane",
+  "source_file": "Data/raw/ready_gov/hurricane_guide.pdf",
+  "total_pages": 12,
+  "num_sections": 17,
+  "num_citations": 17,
+  "metadata": {
+    "category": "ready_gov",
+    "filename": "hurricane_guide.pdf",
+    "word_count": 3464,
+    "char_count": 23227
+  }
+}

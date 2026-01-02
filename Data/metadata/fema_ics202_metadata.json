@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics202",
+  "source_file": "Data/raw/ics_forms/ics_form_202_incident_objectives_v3.1.pdf",
+  "total_pages": 3,
+  "num_sections": 3,
+  "num_citations": 3,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_202_incident_objectives_v3.1.pdf",
+    "word_count": 766,
+    "char_count": 4662
+  }
+}

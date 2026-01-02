@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics213",
+  "source_file": "Data/raw/ics_forms/ics_form_213_general_message_v3.pdf",
+  "total_pages": 2,
+  "num_sections": 2,
+  "num_citations": 2,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_213_general_message_v3.pdf",
+    "word_count": 462,
+    "char_count": 2821
+  }
+}

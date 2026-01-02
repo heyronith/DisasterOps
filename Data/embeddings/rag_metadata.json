@@ -1,0 +1,13 @@
+{
+  "total_chunks": 1694,
+  "embedding_dim": 384,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "files": {
+    "chunks": "Data/chunks/all_chunks.json",
+    "embeddings": "Data/embeddings/embeddings.npy",
+    "bm25": "Data/embeddings/bm25_model.pkl",
+    "citation_map": "Data/chunks/chunk_to_citation.json"
+  }
+}

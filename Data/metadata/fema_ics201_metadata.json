@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics201",
+  "source_file": "Data/raw/ics_forms/ics_form_201_incident_briefing_v3.pdf",
+  "total_pages": 6,
+  "num_sections": 4,
+  "num_citations": 4,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_201_incident_briefing_v3.pdf",
+    "word_count": 952,
+    "char_count": 6456
+  }
+}

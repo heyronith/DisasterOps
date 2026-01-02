@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics208",
+  "source_file": "Data/raw/ics_forms/ics_form_208_safety_message-plan_v3.1.pdf",
+  "total_pages": 2,
+  "num_sections": 2,
+  "num_citations": 2,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_208_safety_message-plan_v3.1.pdf",
+    "word_count": 326,
+    "char_count": 2055
+  }
+}

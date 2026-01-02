@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics214",
+  "source_file": "Data/raw/ics_forms/ics_form_214_activity_log_v3.1.pdf",
+  "total_pages": 3,
+  "num_sections": 3,
+  "num_citations": 3,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_214_activity_log_v3.1.pdf",
+    "word_count": 551,
+    "char_count": 3459
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics_reference",
+  "source_file": "Data/raw/ics_forms/ics_training_reference_guide.pdf",
+  "total_pages": 329,
+  "num_sections": 56,
+  "num_citations": 56,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_training_reference_guide.pdf",
+    "word_count": 95580,
+    "char_count": 676327
+  }
+}

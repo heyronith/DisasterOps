@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics_forms_booklet",
+  "source_file": "Data/raw/ics_forms/nims_ics_forms_booklet.v3.pdf",
+  "total_pages": 115,
+  "num_sections": 84,
+  "num_citations": 84,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "nims_ics_forms_booklet.v3.pdf",
+    "word_count": 33310,
+    "char_count": 215068
+  }
+}

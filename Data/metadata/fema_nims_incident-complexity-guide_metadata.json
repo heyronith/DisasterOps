@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_nims_incident-complexity-guide",
+  "source_file": "Data/raw/fema_other/nims-incident-complexity-guide.pdf",
+  "total_pages": 25,
+  "num_sections": 9,
+  "num_citations": 9,
+  "metadata": {
+    "category": "fema_other",
+    "filename": "nims-incident-complexity-guide.pdf",
+    "word_count": 6151,
+    "char_count": 44970
+  }
+}

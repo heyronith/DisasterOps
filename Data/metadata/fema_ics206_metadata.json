@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics206",
+  "source_file": "Data/raw/ics_forms/ics_form_206_medical_plan_v3.pdf",
+  "total_pages": 3,
+  "num_sections": 4,
+  "num_citations": 4,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_206_medical_plan_v3.pdf",
+    "word_count": 846,
+    "char_count": 5056
+  }
+}

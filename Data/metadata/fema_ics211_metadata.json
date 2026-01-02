@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics211",
+  "source_file": "Data/raw/ics_forms/ics_form_211_incident_check-in_list_v3.1.pdf",
+  "total_pages": 4,
+  "num_sections": 1,
+  "num_citations": 1,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_211_incident_check-in_list_v3.1.pdf",
+    "word_count": 1176,
+    "char_count": 7342
+  }
+}

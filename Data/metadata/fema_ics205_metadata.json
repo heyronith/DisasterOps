@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "fema_ics205",
+  "source_file": "Data/raw/ics_forms/ics_form_205a_communications_list_v3.pdf",
+  "total_pages": 2,
+  "num_sections": 2,
+  "num_citations": 2,
+  "metadata": {
+    "category": "ics_forms",
+    "filename": "ics_form_205a_communications_list_v3.pdf",
+    "word_count": 406,
+    "char_count": 2596
+  }
+}

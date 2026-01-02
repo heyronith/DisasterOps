@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "POI_poiis0700b",
+  "source_file": "Data/raw/fema_other/is-700b_complete/POI/POIIS0700b.pdf",
+  "total_pages": 19,
+  "num_sections": 23,
+  "num_citations": 23,
+  "metadata": {
+    "category": "POI",
+    "filename": "POIIS0700b.pdf",
+    "word_count": 3519,
+    "char_count": 24360
+  }
+}

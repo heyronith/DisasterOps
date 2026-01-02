@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "ready_gov_wildfire",
+  "source_file": "Data/raw/ready_gov/wildfire_guide.pdf",
+  "total_pages": 2,
+  "num_sections": 3,
+  "num_citations": 3,
+  "metadata": {
+    "category": "ready_gov",
+    "filename": "wildfire_guide.pdf",
+    "word_count": 478,
+    "char_count": 2919
+  }
+}

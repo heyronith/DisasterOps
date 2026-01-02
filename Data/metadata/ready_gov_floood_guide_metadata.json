@@ -1,0 +1,13 @@
+{
+  "citation_prefix": "ready_gov_floood_guide",
+  "source_file": "Data/raw/ready_gov/floood_guide.pdf",
+  "total_pages": 2,
+  "num_sections": 3,
+  "num_citations": 3,
+  "metadata": {
+    "category": "ready_gov",
+    "filename": "floood_guide.pdf",
+    "word_count": 733,
+    "char_count": 4310
+  }
+}
